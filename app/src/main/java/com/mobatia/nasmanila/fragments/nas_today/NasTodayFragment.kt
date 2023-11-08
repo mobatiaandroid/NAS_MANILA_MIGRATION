@@ -3,7 +3,6 @@ package com.mobatia.nasmanila.fragments.nas_today
 import android.app.Activity
 import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +10,7 @@ import android.widget.ImageView
 import android.widget.ListView
 import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.mobatia.nasmanila.R
 import com.mobatia.nasmanila.api.ApiClient
 import com.mobatia.nasmanila.common.common_classes.AppUtils
@@ -22,8 +22,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import java.text.SimpleDateFormat
-import java.util.*
-import kotlin.collections.ArrayList
+import java.util.Locale
 
 
 class NasTodayFragment(nasToday: String, tabNasToday: String) : Fragment() {
@@ -41,11 +40,6 @@ class NasTodayFragment(nasToday: String, tabNasToday: String) : Fragment() {
     var bannerUrlImageArray: ArrayList<String>? = null
     var myFormatCalender = "yyyy-MM-dd"
     var sdfcalender: SimpleDateFormat? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -65,7 +59,7 @@ class NasTodayFragment(nasToday: String, tabNasToday: String) : Fragment() {
     private fun initialiseUI() {
         mTitleTextView = mRootView!!.findViewById<View>(R.id.titleTextView) as TextView
         mNasTodayListView = mRootView!!.findViewById<View>(R.id.mNasTodayListView) as ListView
-        mTitleTextView!!.setText(NaisClassNameConstants.NAS_TODAY)
+        mTitleTextView!!.text = NaisClassNameConstants.NAS_TODAY
         bannerImagePager = mRootView!!.findViewById<View>(R.id.bannerImageViewPager) as ImageView
         relMain = mRootView!!.findViewById<View>(R.id.relMain) as RelativeLayout
         relMain!!.setOnClickListener(View.OnClickListener { })
@@ -83,6 +77,7 @@ class NasTodayFragment(nasToday: String, tabNasToday: String) : Fragment() {
     }
 
     private fun getList() {
+        //comment for conflict
         val call: Call<ResponseBody> = ApiClient.getApiService().nasTodayListCall()
         call.enqueue(object : Callback<ResponseBody> {
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
