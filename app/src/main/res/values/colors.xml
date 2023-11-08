@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="ptaSelected">#2B7987</color>
+    <color name="green_nas">#16A74A</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="split_bg">#4dc4cf</color>
+    <color name="cleargreyColor">#D5D5D5</color>
+    <color name="logout_user"> #808080</color>
+
+    <!--
+        <color name="split_bg">#47C2D1</color>
+    -->
+    <color name="list_selector">#6d9ff8</color>
+    <color name="title_bar_bg">#2E2EFE</color>
+    <color name="action_bar_title">#FFFFFF</color>
+    <color name="spinner_text_color">#FFFFFF</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="dark_blue">#1E7DDB</color>
+    <color name="violet">#924DF8</color>
+    <color name="red">#FF5152</color>
+    <color name="pink">#F86E7B</color>
+    <color name="dark_orange">#F9826E</color>
+    <color name="light_orange">#F8A56D</color>
+    <color name="yellow">#F7A329</color>
+    <color name="light_blue">#8ECDFF</color>
+    <color name="green">#2BC742</color>
+    <color name="nas_green">#009933</color>
+    <color name="sign_name">#F7A56D</color>
+    <color name="sign_password">#2BC742</color>
+    <color name="sign_mail">#FF5152</color>
+
+<!--
+    <color name="rel_one">#63C3D0</color>
+-->
+    <color name="rel_one">#4dc4cf</color>
+<!--
+    <color name="rel_two">#1B3453</color>
+-->
+    <color name="rel_two">#003156</color>
+    <color name="rel_three">#EBE9E4</color>
+<!--
+    <color name="rel_four">#B1DCE8</color>
+-->
+    <color name="rel_four">#9ddae6</color>
+<!--
+    <color name="rel_five">#6D3184</color>
+-->
+    <color name="rel_five">#75298d</color>
+<!--
+    <color name="rel_six">#E87E53</color>
+-->
+    <color name="rel_six">#f6874a</color>
+<!--
+    <color name="rel_six">#F58649</color>
+-->
+<!--
+    <color name="rel_seven">#F2D51E</color>
+-->
+<!--
+    <color name="rel_seven">#FDC02D</color>
+-->
+    <color name="rel_seven">#ffc20a</color>
+<!--
+    <color name="rel_eight">#A19994</color>
+-->
+    <color name="rel_eight">#8f8c85</color>
+<!--
+    <color name="rel_nine">#E21D5C</color>
+-->
+    <color name="rel_nine">#ee2953</color>
+<!--
+    <color name="rel_nine">#EE2B53</color>
+-->
+
+    <color name="photo_bg_gallery">#f6874a</color>
+<!--
+    <color name="photo_bg_gallery">#F28650</color>
+-->
+<!--
+    <color name="video_bg_gallery">#418AE1</color>
+-->
+    <color name="video_bg_gallery">#722C8A</color>
+    <color name="term_button_bg">#71C7D8</color>
+    <color name="cal_row_1">#E67D4C</color>
+    <color name="cal_row_2">#6E2E86</color>
+    <color name="cal_row_3">#E21459</color>
+    <color name="cal_row_4">#1B3354</color>
+    <color name="event_list_bg">#68D9E3</color>
+    <color name="dark_green">#0A8600</color>
+    <color name="light_grey">#d8d8d8</color>
+    <color name="dark_grey">#A9A9A9</color>
+    <color name="dark_grey1">#908C86</color>
+<!--
+    <color name="parents_association_titleclr">#FC1D3D</color>
+-->
+    <color name="parents_association_titleclr">#ee2953</color>
+    <color name="parents_slot_color">#15395A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+
+</resources>

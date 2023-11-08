@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NASManilaKotlin"
+        tools:targetApi="n">
+
+        <activity android:name=".activities.parent_essential.ParentEssentialActivity" />
+        <activity android:name=".activities.pdf.PDFViewActivity" />
+        <activity android:name=".activities.web_view.LoadUrlWebViewActivity" />
+        <activity android:name=".fragments.about_us.FacilityActivity" />
+        <activity android:name=".fragments.about_us.AccreditationsActivity" />
+        <activity android:name=".activities.terms_of_service.TermsOfServiceActivity" />
+        <activity android:name=".activities.notification.VideoAlertActivity" />
+        <activity android:name=".activities.notification.ImageAlertActivity" />
+        <activity android:name=".activities.notification.AudioAlertActivity" />
+        <activity android:name=".activities.notification.TextAlertActivity" />
+        <activity android:name=".activities.tutorial.TutorialActivity" />
+        <activity
+            android:name=".activities.login.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".activities.home.HomeListActivity" />
+        <activity
+            android:name=".activities.splash.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.mobatia.nasmanila.custom_views.custom_text.CustomFontDJ5TextWhite
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/split_bg"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleTextView"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/bannerImagePager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:focusable="true"
+            android:background="@drawable/default_banner_british"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="70">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"
+                android:scrollbars="none">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="true">
+
+                    <RelativeLayout
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/sendEmail"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/mailiconpe"
+                            android:visibility="invisible" />
+
+                        <com.mobatia.nasmanila.custom_views.custom_text.CustomFontSansProTextBlackSemiBold
+                            android:id="@+id/descriptionTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_toLeftOf="@+id/mailImageView"
+                            android:singleLine="true"
+                            android:text="@string/introduction"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:visibility="invisible"
+                            tools:ignore="UnknownId" />
+                    </RelativeLayout>
+
+                    <com.mobatia.nasmanila.custom_views.custom_text.CustomFontSansProTextBlack
+                        android:id="@+id/description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/lores_ipsum"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:visibility="invisible" />
+
+                    <com.mobatia.nasmanila.custom_views.custom_text.CustomFontSansProTextWhiteWithoutColor
+                        android:id="@+id/weburl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/description"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:singleLine="false"
+                        android:visibility="invisible"
+                        android:text="https://www.nordangliaeducation.com/our-schools/philippines/manila/international/contact"
+                        android:textColor="@color/dark_blue" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/mAboutUsListView"
+                        style="@style/ListStyleBlackTextTransparentSelector"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/weburl" />
+
+                </RelativeLayout>
+
+            </ScrollView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

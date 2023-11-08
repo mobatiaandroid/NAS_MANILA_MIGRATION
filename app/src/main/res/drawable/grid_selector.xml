@@ -1,0 +1,12 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+
+    <item android:drawable="@color/list_selector" android:state_focused="true" android:state_pressed="false"/>
+
+    <!-- while pressed -->
+    <item android:drawable="@color/list_selector" android:state_pressed="true"/>
+
+    <!-- while selected in actionmode -->
+    <item android:drawable="@color/list_selector" android:state_activated="true"/>
+    <item android:drawable="@color/transparent"/>
+
+</selector>

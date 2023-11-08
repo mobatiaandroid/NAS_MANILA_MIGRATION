@@ -1,0 +1,512 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="play">PLAY</string>
+    <string name="datexpirecontact">Booking and cancellation date is over. Please contact the school.</string>
+    <string name="requestHint">If you need to cancel a registered absence please contact reception (phone or email).</string>
+    <string name="pause">PAUSE</string>
+    <string name="regNewAbsence">Register new absence</string>
+    <string name="appregisteredHint">App registered absences</string>
+    <string name="app_name">NAIS MANILA</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_heading">Alert</string>
+    <string name="nodatafound">No data found</string>
+    <string name="module_under_construction">This module is under construction.</string>
+    <string name="avail_for_registered">This feature is available only for registered users. Login/register to see contents.</string>
+    <string name="common_error">Cannot continue. Please try again later</string>
+    <string name="common_error_loading_pdf">Failed to load the pdf. Please try again later.</string>
+    <string name="common_error_loading_link">Failed to load the link. Please try again later.</string>
+    <string name="common_error_loading_page">Failed to load. Please try again later.</string>
+    <string name="internet_error">Network error. Please check your internet connection and try again later.</string>
+    <string name="mandatory_field">Mandatory field</string>
+    <string name="no_internet">Network error. Please check your internet connection and try again later.</string>
+    <string name="ok">Ok</string>
+    <string name="invalid_email">Invalid email. Please try again.</string>
+    <string name="invalid_email_first">The email submitted is(</string>
+    <string name="invalid_email_last">) not registered with the school</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading&#8230;</string>
+    <!-- login strings -->
+    <string name="username">USER EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <!-- login strings -->
+    <string name="null_value"></string>
+
+    <!--RESPONSES-->
+    <string name="response_Statusfailure">STATUS FAILURE</string>
+    <string name="response_Networkerror">NETWORK ERROR</string>
+    <!--RESPONSES-->
+    <string name="sign_name">NAME</string>
+    <string name="sign_email">EMAIL ID</string>
+    <string name="sign_phone">CONTACT NUMBER</string>
+    <string name="submit">SUBMIT</string>
+    <!--Home
+    -Calendar
+    -Notifications
+    -Communications
+    -Parent Essentials
+    -Early Years
+    -Primary
+    -Secondary
+    -IB Programme
+    -Sports
+    -Performing Arts
+    -CCAs
+    -NAE Programmes
+    -Social Media
+    -Gallery
+    -About us
+    -Contact Us
+    -->
+    <string-array name="home_list_content_reg_items">
+
+        <!-- 0 -->
+        <item>Home</item>
+        <!-- 1 -->
+        <item>Calendar</item>
+        <!-- 2 -->
+        <item>Notifications</item>
+        <!-- 3 -->
+        <!-- <item>Communications</item>-->
+        <!-- 4 -->
+        <item>Absences</item>
+        <!-- 4 -->
+        <item>Parent Essentials</item>
+
+        <item>Enrichment Lessons</item>
+        <!--6-->
+        <!--7-->
+        <!--  <item>Parents\' Association</item>-->
+        <!--8-->
+        <item>Parent Meeting</item>
+        <!-- 13 -->
+        <item>Social Media</item>
+        <!-- 14 -->
+        <!-- <item>Gallery</item>-->
+        <!-- 15 -->
+        <item>About Us</item>
+        <!-- 16 -->
+        <item>Contact Us</item>
+
+    </string-array>
+    <!--     &lt;!&ndash; 17 &ndash;&gt;
+      <item>QR Scanner</item>
+      &lt;!&ndash; 18 &ndash;&gt;
+      <item>Admission</item>
+      &lt;!&ndash; 19 &ndash;&gt;
+      <item>Air Quality</item>
+      &lt;!&ndash; 20 &ndash;&gt;
+      <item>ManageBac</item>
+      &lt;!&ndash; 21 &ndash;&gt;
+      <item>NAIS Today</item>-->
+    <string-array name="home_list_content_guest_items">
+
+        <!-- 0 -->
+        <item>Home</item>
+        <!-- 1 -->
+        <!--<item>Calendar</item>-->
+        <!-- 2 -->
+        <item>Notifications</item>
+        <!-- 3 -->
+        <!--  <item>Communications</item>-->
+        <!-- 4 -->
+        <item> Parent Essentials</item>
+        <item>Enrichment Lessons</item>
+
+        <!-- 9 -->
+        <item>Social Media</item>
+        <!-- 13 -->
+        <!--
+        <item>Gallery</item>
+-->
+        <!-- 14 -->
+        <item>About Us</item>
+        <!-- 15 -->
+        <item>Contact Us</item>
+
+    </string-array>
+    <!--
+       &lt;!&ndash; 10 &ndash;&gt;
+
+    <item>Sports</item>-->
+
+    <!-- 17
+       <item>QR Scanner</item>
+        18
+       <item>Admission</item>
+        19
+       <item>Air Quality</item>
+        20
+       <item>ManageBac</item>
+        21
+       <item>NAIS Today</item>-->
+    <string name="drag_impossible">Drag and drop is not possible for this section</string>
+    <string name="drag_duplicate">Item already present in home page</string>
+    <!-- home strings -->
+
+
+    <!-- home list drawables -->
+    <string-array name="home_list_reg_icons">
+
+        <!-- 0 wisshsop-->
+        <item>@drawable/home</item>
+        <!-- 1 -->
+        <item>@drawable/calendar</item>
+        <!-- 2 -->
+        <item>@drawable/notif</item>
+        <!-- 3 -->
+        <!--
+        <item>@drawable/communication</item>
+-->
+        <!-- 4 -->
+        <item>@drawable/absence</item>
+        <!-- 4 -->
+        <item>@drawable/parent</item>
+        <item>@drawable/programme</item>
+        <!-- 5 -->
+        <!--<item>@drawable/earlyyears</item>
+        &lt;!&ndash; 6 &ndash;&gt;
+        <item>@drawable/primary</item>
+        &lt;!&ndash; 7 &ndash;&gt;
+        <item>@drawable/secondary</item>-->
+        <!-- 8 -->
+        <!-- <item>@drawable/parent_association</item>-->
+        <item>@drawable/parentevening</item>
+
+        <!-- 13 -->
+        <item>@drawable/social</item>
+        <!-- 14 -->
+        <!--<item>@drawable/gallery</item>-->
+        <!-- 15 -->
+        <item>@drawable/aboutus</item>
+        <!-- 16 -->
+        <item>@drawable/contacts</item>
+
+    </string-array>
+    <!--    &lt;!&ndash;       17 &ndash;&gt;
+        <item>@drawable/gallery</item>
+        &lt;!&ndash; 18 &ndash;&gt;
+        <item>@drawable/admission</item>
+        &lt;!&ndash; 19 &ndash;&gt;
+        <item>@drawable/airquality</item>
+        &lt;!&ndash; 20 &ndash;&gt;
+        <item>@drawable/managebac</item>
+        &lt;!&ndash; 21 &ndash;&gt;
+        <item>@drawable/news</item>-->
+    <string-array name="home_list_guest_icons">
+
+        <!-- 0 wisshsop-->
+        <item>@drawable/home</item>
+        <!-- 1 -->
+        <!--
+        <item>@drawable/calendar</item>
+-->
+        <!-- 2 -->
+        <item>@drawable/notif</item>
+        <!-- 3 -->
+        <!--  <item>@drawable/communication</item>-->
+        <!-- 4 -->
+        <item>@drawable/parent</item>
+        <item>@drawable/programme</item>
+        <!-- 5 -->
+        <!-- <item>@drawable/earlyyears</item>
+        &lt;!&ndash; 6 &ndash;&gt;
+        <item>@drawable/primary</item>
+        &lt;!&ndash; 7 &ndash;&gt;
+        <item>@drawable/secondary</item>-->
+        <!-- 8 -->
+        <!-- 13 -->
+        <item>@drawable/social</item>
+        <!-- 14 -->
+        <!--
+        <item>@drawable/gallery</item>
+-->
+        <!-- 15 -->
+        <item>@drawable/aboutus</item>
+        <!-- 16 -->
+        <item>@drawable/contacts</item>
+
+
+    </string-array>
+    <!-- home list drawables        <item>@drawable/sports</item>
+ -->
+    <!--    &lt;!&ndash; 17 &ndash;&gt;
+        <item>@drawable/gallery</item>
+        &lt;!&ndash; 18 &ndash;&gt;
+        <item>@drawable/admission</item>
+        &lt;!&ndash; 19 &ndash;&gt;
+        <item>@drawable/airquality</item>
+        &lt;!&ndash; 20 &ndash;&gt;
+        <item>@drawable/managebac</item>
+        &lt;!&ndash; 21 &ndash;&gt;
+        <item>@drawable/news</item>-->
+    <string name="search">Search</string>
+    <string name="wiss_up">Nas Up</string>
+    <string name="edt_profile">Edit Profile</string>
+    <string name="close">Close</string>
+    <string name="add_favs_msg">Add to my people?</string>
+    <string name="add_favs_success">Person has been successfully added</string>
+    <string name="remove_favs_msg">Are you sure you want to remove from your network?</string>
+    <string name="remove_favs_success">Person has been successfully removed from your network</string>
+
+    <!-- profile strings -->
+    <string name="profile">Profile</string>
+    <string name="child_class">Child\'s Class</string>
+    <string name="child_grade">Child\'s Grade</string>
+    <string name="child_program">Child\'s Program</string>
+    <string name="take_picture">Take picture</string>
+    <string name="choose_gallery">Choose from gallery</string>
+    <string name="complete_action">Complete action using</string>
+    <string name="select_country">Please select nationality</string>
+    <string name="pyp">PYP</string>
+    <string name="myp">MYP</string>
+    <string name="dp">DP</string>
+    <string name="add_another_child"><u>Add another child details</u></string>
+    <string name="remove_another_child"><u>Remove</u></string>
+    <string name="share_save">SAVE AND SHARE</string>
+    <string name="share">SHARE</string>
+    <string name="save_share_alert">By pressing share, all of your profile information will be visible to NAIS Community members. Are you sure you want to share your profile?</string>
+    <string name="sel_radio_alert">Please select a child program</string>
+    <string name="success_save">Successfully saved your profile</string>
+    <string name="success_share">Successfully shared your profile</string>
+    <string name="no_comma">Cannot contain\',\'</string>
+    <string name="sel_chld_prg">Please select a child program</string>
+    <string name="change_password_success">Password successfully changed.Please log in.</string>
+    <string name="change_password_repeat">Cannot use previously used password</string>
+    <string name="change_password_error">Old password is incorrect</string>
+    <string name="name">Name</string>
+    <string name="nationality">Nationality</string>
+    <string name="staff_profile">STAFF PROFILE</string>
+    <string name="directory_help_txt">For an overview of the staff and their positions at NAIS, please go through the list below</string>
+    <string name="email_staff">Send mail&#8230;</string>
+    <string name="no_email_client">There are no email clients installed.</string>
+    <string name="no_item">No records found</string>l
+    <string name="exit_alert">Do you wish to exit?</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <!-- calendar strings -->
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THU</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+    <string name="sunday">SUN</string>
+    <string name="jan_short">JAN</string>
+    <string name="feb_short">FEB</string>
+    <string name="mar_short">MAR</string>
+    <string name="apr_short">APR</string>
+    <string name="may_short">MAY</string>
+    <string name="jun_short">JUN</string>
+    <string name="jul_short">JUL</string>
+    <string name="aug_short">AUG</string>
+    <string name="sep_short">SEP</string>
+    <string name="oct_short">OCT</string>
+    <string name="nov_short">NOV</string>
+    <string name="dec_short">DEC</string>
+    <string name="add_cal_success">Event added to device calendar</string>
+    <string name="del_cal_success">Event removed from device calendar</string>
+    <string name="del_cal_fail">Event deletion failed</string>
+    <string name="add_all_cal_success">Added all events to device calendar</string>
+    <string name="del_all_cal_success">Removed all events from device calendar</string>
+    <string name="no_evnt_details">Not enough details to add to calendar</string>
+    <string name="month">MONTH</string>
+    <string name="year">YEAR</string>
+    <string name="day">DAY</string>
+    <string name="when">When:</string>
+    <string name="where">Where:</string>
+    <string-array name="month31">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="month30">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="day">
+        <item>DAY</item>
+    </string-array>
+    <string-array name="month29">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+    </string-array>
+    <string-array name="month28">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+    </string-array>
+
+    <!-- calendar strings -->
+    <!--<array name="calendar_row_colors">
+        <item>@color/cal_row_1</item>
+        <item>@color/cal_row_2</item>
+        <item>@color/cal_row_3</item>
+        <item>@color/cal_row_4</item>
+    </array>-->
+
+
+    <string name="signup_success_alert">Successfully registered. Please check your email for further details.</string>
+    <string name="login_success_alert">Successfully logged in.</string>
+
+    <string name="missing_parameter">Missing parameter</string>
+    <string name="email_exists">Email already exist.</string>
+    <string name="incrct_usernamepswd">Incorrect username or password.</string>
+    <string name="incrct_current_pswd">Incorrect password. Please try again.</string>
+    <string name="frgot_success_alert">Password successfully sent to your email.</string>
+    <string name="password_mismatch">Password do not match.</string>
+    <string name="alert_heading">Alert</string>
+    <string name="enter_current_password">Please enter current password.</string>
+    <string name="enter_new_password">Please enter new password.</string>
+    <string name="enter_confirm_password">Please enter confirm password</string>
+    <string name="succ_pswd">Password successfully changed.Please log in.</string>
+    <string name="enter_email">Please enter email</string>
+    <string name="enter_useremail">Please enter USER EMAIL</string>
+    <string name="enter_password">Please enter password.</string>
+    <string name="enter_valid_email">Please enter a valid email</string>
+    <string name="sports_title">Sports Events</string>
+    <string name="no_details_available">No details available right now.</string>
+    <string name="no_contact_no">No contact number available</string>
+    <string name="no_contact_email">No contact emails available.</string>
+    <string name="introduction">Introduction:</string>
+    <string name="lores_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</string>
+    <string name="succ_leave_submission">Successfully submitted your request.</string>
+    <string name="enter_subject">Enter subject</string>
+    <string name="enter_startdate">Please select First day of absence</string>
+    <string name="enter_enddate">Please select Return to school</string>
+    <string name="enter_reason">Please enter reason for your absence</string>
+    <string name="succ_add_student">Successfully added your child</string>
+    <string name="student_exists">Student already exists</string>
+    <string name="student_not_available">No Student data available.</string>
+    <string name="internal_server_error">Internal server error</string>
+
+    <!--force update-->
+
+    <string name="new_version_available">New Version Available</string>
+    <string name="force_update">There is a newer version available for download! Please update the app by visiting the Google Play Store.</string>
+    <string name="pleasewait">please wait..</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

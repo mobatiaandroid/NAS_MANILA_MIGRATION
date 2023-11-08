@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="round_background" format="boolean" />
+        <attr name="is_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <declare-styleable name="SliderLayout">
+
+        <!-- indicator visibility -->
+        <attr name="indicator_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+
+        <attr name="auto_cycle" format="boolean"/>
+
+        <!-- page animation -->
+        <attr name="pager_animation" format="enum">
+            <enum name="Default" value="0">Default</enum>
+            <enum name="Accordion" value="1">Accordion</enum>
+            <enum name="Background2Foreground" value="2">Background2Foreground</enum>
+            <enum name="CubeIn" value="3">CubeIn</enum>
+            <enum name="DepthPage" value="4">DepthPage</enum>
+            <enum name="Fade" value="5">Fade</enum>
+            <enum name="FlipHorizontal" value="6">FlipHorizontal</enum>
+            <enum name="FlipPage" value="7">FlipPage</enum>
+            <enum name="Foreground2Background" value="8">Foreground2Background</enum>
+            <enum name="RotateDown" value="9">RotateDown</enum>
+            <enum name="RotateUp" value="10">RotateUp</enum>
+            <enum name="Stack" value="11">Stack</enum>
+            <enum name="Tablet" value="12">Tablet</enum>
+            <enum name="ZoomIn" value="13">ZoomIn</enum>
+            <enum name="ZoomOutSlide" value="14">ZoomOutSlide</enum>
+            <enum name="ZoomOut" value="15">ZoomOut</enum>
+        </attr>
+
+        <!-- page animation time span -->
+        <attr name="pager_animation_span" format="integer"/>
+
+    </declare-styleable>
+    <declare-styleable name="DrawableStates">
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view has input focus. -->
+        <attr name="state_focused" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view's window has input focus. -->
+        <attr name="state_window_focused" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view is enabled. -->
+        <attr name="state_enabled" format="boolean" />
+        <!-- State identifier indicating that the object <var>may</var> display a check mark. See
+             {@link android.R.attr#state_checked} for the identifier that indicates whether it is
+             actually checked. -->
+        <attr name="state_checkable" format="boolean"/>
+        <!-- State identifier indicating that the object is currently checked.  See
+             {@link android.R.attr#state_checkable} for an additional identifier that can indicate
+             if any object may ever display a check, regardless of whether state_checked is
+             currently set. -->
+        <attr name="state_checked" format="boolean"/>
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view (or one of its parents) is currently selected. -->
+        <attr name="state_selected" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when the user is pressing down in a view. -->
+        <attr name="state_pressed" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view or its parent has been "activated" meaning the user has currently
+             marked it as being of interest.  This is an alternative representation of
+             state_checked for when the state should be propagated down the view hierarchy. -->
+        <attr name="state_activated" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view or drawable is considered "active" by its host. Actual usage may vary
+             between views. Consult the host view documentation for details. -->
+        <attr name="state_active" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view or drawable is considered "single" by its host. Actual usage may vary
+             between views. Consult the host view documentation for details. -->
+        <attr name="state_single" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view or drawable is in the first position in an ordered set. Actual usage
+             may vary between views. Consult the host view documentation for details. -->
+        <attr name="state_first" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view or drawable is in the middle position in an ordered set. Actual usage
+             may vary between views. Consult the host view documentation for details. -->
+        <attr name="state_middle" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a view or drawable is in the last position in an ordered set. Actual usage
+             may vary between views. Consult the host view documentation for details. -->
+        <attr name="state_last" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             indicating that the Drawable is in a view that is hardware accelerated.
+             This means that the device can at least render a full-screen scaled
+             bitmap with one layer of text and bitmaps composited on top of it
+             at 60fps.  When this is set, the colorBackgroundCacheHint will be
+             ignored even if it specifies a solid color, since that optimization
+             is not needed. -->
+        <attr name="state_accelerated" format="boolean" />
+        <!-- State value for {@link android.graphics.drawable.StateListDrawable StateListDrawable},
+             set when a pointer is hovering over the view. -->
+        <attr name="state_hovered" format="boolean" />
+        <!-- State for {@link android.graphics.drawable.StateListDrawable StateListDrawable}
+             indicating that the Drawable is in a view that is capable of accepting a drop of
+             the content currently being manipulated in a drag-and-drop operation. -->
+        <attr name="state_drag_can_accept" format="boolean" />
+        <!-- State for {@link android.graphics.drawable.StateListDrawable StateListDrawable}
+             indicating that a drag operation (for which the Drawable's view is a valid recipient)
+             is currently positioned over the Drawable. -->
+        <attr name="state_drag_hovered" format="boolean" />
+        <!-- State for {@link android.graphics.drawable.StateListDrawable StateListDrawable}
+             indicating that a View has accessibility focus. -->
+        <attr name="state_accessibility_focused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ViewDrawableStates">
+        <attr name="state_pressed" />
+        <attr name="state_focused" />
+        <attr name="state_selected" />
+        <attr name="state_window_focused" />
+        <attr name="state_enabled" />
+        <attr name="state_activated" />
+        <attr name="state_accelerated" />
+        <attr name="state_hovered" />
+        <attr name="state_drag_can_accept" />
+        <attr name="state_drag_hovered" />
+    </declare-styleable>
+    <declare-styleable name="PagerIndicator">
+        <!-- indicator visibility -->
+        <attr name="visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+
+        <attr name="shape" format="enum">
+            <enum value="0" name="oval"/>
+            <enum value="1" name="rect"/>
+        </attr>
+
+        <attr name="selected_color" format="color"/>
+        <attr name="unselected_color" format="color"/>
+
+        <!-- indicator style -->
+        <attr name="selected_drawable" format="reference"/>
+        <attr name="unselected_drawable" format="reference"/>
+
+        <attr name="selected_width" format="dimension"/>
+        <attr name="selected_height" format="dimension"/>
+
+        <attr name="unselected_width" format="dimension"/>
+        <attr name="unselected_height" format="dimension"/>
+
+        <attr name="padding_left" format="dimension"/>
+        <attr name="padding_right" format="dimension"/>
+        <attr name="padding_top" format="dimension"/>
+        <attr name="padding_bottom" format="dimension"/>
+
+        <attr name="selected_padding_left" format="dimension"/>
+        <attr name="selected_padding_right" format="dimension"/>
+        <attr name="selected_padding_top" format="dimension"/>
+        <attr name="selected_padding_bottom" format="dimension"/>
+
+        <attr name="unselected_padding_left" format="dimension"/>
+        <attr name="unselected_padding_right" format="dimension"/>
+        <attr name="unselected_padding_top" format="dimension"/>
+        <attr name="unselected_padding_bottom" format="dimension"/>
+
+
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="SliderStyle" format="reference"/>
+        <attr name="PagerIndicatorStyle" format="reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SmartTextView">
+        <attr name="justified" format="boolean"/>
+        <attr name="android:textAllCaps"/>
+        <attr name="android:textStyle"/>
+        <attr name="fontName" format="enum">
+            <enum name="thin" value="0"/>
+            <enum name="reg" value="1"/>
+            <enum name="thick" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

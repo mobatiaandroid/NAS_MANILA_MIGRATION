@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/relSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+        <com.mobatia.nasmanila.custom_views.custom_text.CustomFontSansProTextBlackBold
+            android:id="@+id/listTxtTitle"
+            style="@style/textstyleblackNopadding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:singleLine="true" />
+
+        <com.mobatia.nasmanila.custom_views.custom_text.CustomFontSansProTextWhiteWithoutColor
+            android:id="@+id/listTxtDescription"
+            style="@style/textstyleblackNopaddingSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/logout_user"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/listTxtTitle"
+            android:text=""
+            android:maxLines="3" />
+        <com.mobatia.nasmanila.custom_views.custom_text.CustomFontSansProTextWhiteWithoutColor
+            android:id="@+id/listTxtDate"
+            style="@style/textstyleblackNopaddingSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:textColor="@color/split_bg"
+            android:layout_toLeftOf="@+id/readMoreTextView"
+            android:layout_below="@+id/listTxtDescription"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/readMoreTextView"
+            android:layout_width="wrap_content"
+            android:background="@drawable/curved_filled_layout"
+            android:padding="7dp"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/listTxtDescription"
+            android:gravity="center"
+            android:text="READ MORE"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

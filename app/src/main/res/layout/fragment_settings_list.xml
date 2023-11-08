@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.mobatia.nasmanila.custom_views.custom_text.CustomFontDJ5TextWhite
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/split_bg"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+    <ListView
+        android:id="@+id/mSettingsListView"
+        style="@style/ListStyleBlackTextTransparentSelector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/titleTextView" />
+    <com.mobatia.nasmanila.custom_views.custom_text.CustomFontSansProTextGrey
+        android:id="@+id/versionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V 2.1"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@color/grey"/>
+
+</RelativeLayout>

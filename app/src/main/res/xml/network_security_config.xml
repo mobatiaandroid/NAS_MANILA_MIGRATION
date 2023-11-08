@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">mobicare2.mobatia.com</domain>
+        <domain includeSubdomains="true">cms.naismanila.edu.ph</domain>
+        <domain includeSubdomains="true">192.168.0.194</domain>
+        <!--<domain includeSubdomains="true">alpha.mobatia.in</domain>-->
+        <domain includeSubdomains="true">manila.mobatia.in</domain>
+
+    </domain-config>
+</network-security-config>
